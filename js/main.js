@@ -3,12 +3,9 @@ $( document ).ready(function() {
   $('#mainPage').hide();
   $('.link--nukun').hide();
   $('.link--nukun').fadeIn(1300);
-
-  $("#loadScreen").click(function() {
-    $('.link--nukun').fadeOut(800);
-    $('#loadScreen').delay(1200).fadeOut(1000);
-    $('#mainPage').delay(2000).fadeIn(1200);
-    });
+  $('.link--nukun').fadeOut(800);
+  $('#loadScreen').delay(1200).fadeOut(1000);
+  $('#mainPage').delay(2000).fadeIn(1200);
 
 // $(".name").click(function() {
 //     $('html,body').animate({
